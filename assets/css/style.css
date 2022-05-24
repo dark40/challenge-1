@@ -1,6 +1,4 @@
-/*
-The following settings apply to whole page. 
-*/
+/*The following settings apply to whole page. */
 
 * {
     box-sizing: border-box;
@@ -18,19 +16,23 @@ a {
     text-decoration: none;
 }
 
+/*To make the font of paragraph bigger.*/
+
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
-/*
-The following is to format the navigation bar on the top. 
-*/
 
+/*this is to format the header and set the position to fix so it won't move when scroll*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    position: fixed;
+    Top: 0;
+    width: 100%;
+
 }
 
 .header h1 {
@@ -60,9 +62,8 @@ The following is to format the navigation bar on the top.
 }
 
 
-/*
-The following is to add photo on the landing page. 
-*/
+/*The following is to add photo on the landing page. 
+ALT text is added in case the photo is not loading.*/
 
 .hero {
     height: 800px;
@@ -73,19 +74,19 @@ The following is to add photo on the landing page.
     background-position: center;
 }
 
-/*
-The following is to format main content on the left side.
-Similar properties are consolidated to follow semantic structure. 
-*/
+/*The following is to format main content on the left side.
+Similar properties are consolidated to follow semantic structure. */
 
 .content {
-    width: 75%;
+    width: 70%;
     display: inline-block;
     margin-left: 20px;
 }
 
 
-.image {
+
+
+.image-element {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -94,7 +95,7 @@ Similar properties are consolidated to follow semantic structure.
     color: #ffffff;
 }
 
-.image img {
+.image-element img {
     max-height: 200px;
 }
 
@@ -108,25 +109,30 @@ Similar properties are consolidated to follow semantic structure.
     margin-left: 25px;
 }
 
-.image h2 {
+.image-element h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*
-The following is to format column block on the right side.
-Similar properties are consolidated to follow semantic structure. 
-*/
+
+
+/*The following is to format column block on the right side.
+Similar properties are consolidated to follow semantic structure. */
 
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 25%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+ 
+}
+
+.benefits p {
+    font-size: 20px;
 }
 
 .benefit-element {
@@ -138,6 +144,7 @@ Similar properties are consolidated to follow semantic structure.
 .benefit-element h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 24px;
 }
 
 
@@ -147,15 +154,16 @@ Similar properties are consolidated to follow semantic structure.
     max-width: 150px;
 }
 
-/*
-The following is to format footer. 
-*/
+/*The following is to format footer.
+Background color is updated to match the header. */
 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
 .footer h2 {
