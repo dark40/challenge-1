@@ -34,4 +34,5 @@ Meaning for title is chosen ("Horiseon") for boosting SEO.
 The website is designed to use both on desktop and mobile. 
 
 ## Screenshots
-
+![Desktop Version](/challenge-1/assets/images/Desktop-Horiseon.png)
+![Mobile Version](/challenge-1/assets/images/Mobile-Horiseon.png)
