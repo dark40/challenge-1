@@ -16,7 +16,7 @@ One of the most important parts of this challenge is to make the website more ac
 In this website, accessible combinations that meet Web Content Accessibility Guidelines (WCAG) 2.1 Level AAA between text and background. These two colors are #d6d2c4 and #003b49. 
 
 2. Semantic Design
-Semantic design is applied in the HTML. <header><nav><section><footer> are used. 
+Semantic design is applied in the HTML. "<header><nav><section><footer>" are used. 
 
 3. Independent Styling
 Elements are styled independently. 
