@@ -78,15 +78,15 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    position:static;
- 
+    position: static;
+
 }
 
 /*The following is to format main content on the left side. */
 /*Similar properties are consolidated to follow semantic structure. */
 .content {
     width: 70%;
-    display: inline-block; 
+    display: inline-block;
     margin-left: 20px;
 }
 
@@ -98,7 +98,7 @@ p {
     min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #d6d2c4;
-    color:  #003b49;
+    color: #003b49;
 }
 
 /* Set the maximize height of image 200px. */
@@ -135,8 +135,8 @@ p {
     width: 25%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #d6d2c4 ;
- 
+    background-color: #d6d2c4;
+
 }
 
 /* Set paragraph size to 20px. */
@@ -147,7 +147,7 @@ p {
 /* Set margin and color. */
 .benefit-element {
     margin-bottom: 32px;
-    color:  #003b49;
+    color: #003b49;
 }
 
 /* Set the h3. */
@@ -182,9 +182,11 @@ p {
 }
 
 /* Give content and benefits elements a bigger view when screen size changes */
-@media only screen and (max-width: 992px){
-    .content, .benefits {
+@media only screen and (max-width: 992px) {
+
+    .content,
+    .benefits {
         width: 100%;
-        margin:0;
+        margin: 0;
     }
 }
