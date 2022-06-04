@@ -7,7 +7,7 @@ This challenge is to refactor an existing website. It is a simply landing page f
 
 ## Run the website
 
-You can open the website by click here. https://dark40.github.io/challenge-1/
+You can open the website by click here. https://dark40.github.io/horiseon/
 
 ## Accessibility Standards
 One of the most important parts of this challenge is to make the website more accessible. 
