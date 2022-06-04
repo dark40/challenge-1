@@ -1,4 +1,4 @@
-# challenge-1 Refactoring
+# Horiseon - Refactoring Project 
 
 ## Description
 
